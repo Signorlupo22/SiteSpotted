@@ -10,11 +10,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     width: 100%;
     flex-direction: column;
 }
 
+
+.centertop{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
 a{
     text-decoration: none;
     color: #fff;
@@ -24,4 +33,18 @@ a{
     border-radius: 15px;
     margin: 10px;
     transition: all 0.3s ease-in-out;
+}
+p{
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    font-size: 50px;
+    color: #fff;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
