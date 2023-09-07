@@ -22,8 +22,13 @@ body{
     min-height: 70vh;
     margin-top: 30px;
 }
-
-
+.centertop h2{
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .centertop{
     margin-top: 50px;
     text-align: center;
@@ -100,7 +105,16 @@ h1{
 }
 
 
-
+.centertop a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
 .center a{
 max-width: 90vw;
 height: auto;
